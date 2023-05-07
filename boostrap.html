@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap-ödevi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            #site-nav{
+                background-color: black !important;
+                color: white;
+            }
+            #site-nav a{
+                color: inherit;
+            }
+            #second-side img{
+                height: 200px;
+            }
+            #body{
+                background-color: rgb(1, 1, 17);
+                color: white;
+            }
+            #icons{
+                width: 100%;
+                text-align: center;
+                margin-top: 8%;
+            }
+            #icons i{
+                margin: 6px;
+            }
+            
+
+            
+        </style>
+  </head>
+  <body id="body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="site-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FULL-STACK DEVELOPER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BLOĞUM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COMMUNİCATİON</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   ABOUT ME
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--first slide-->
+
+      <div class="row">
+        <div class="col-8 ">
+            <div class="card mb-3">
+                <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/03/16180754/software-engineer-job-skills-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">YAZILIM VE YAPAY ZEKA</h5>
+                  <p class="card-text">Günümüzde, internet ve mobil teknolojilerin gelişimi, elektronik, nano teknoloji, tıptaki
+                    gelişmeler, sağlık ve dijital uygulamalar ve benzeri mekatronik çalışmaları hızlanmaktadır. Son
+                    Dünya Ekonomik Forumu, Robotik ve Yapay Zeka gündeminde önemli bir yere sahiptir ve
+                    Roubini, Stiglitz gibi ekonomistler, robotik ve yapay zekanın ekonomi ve iş dünyasındaki
+                    etkileri üzerine tartışmalara girmişlerdir. Bu konularda her geçen gün iş dünyasında pek çok
+                    detay görüşülmekte ve yeni iş modelleri, iş tanımları, iş yapma şekilleri, iş süreçleri, finansman
+                    modelleri, çalışma yerleri ve meslekler gibi çok farklı alanlar gündeme gelmektedir</p>
+                  <p class="card-text"><small class="text-body-secondary">06.05.2023</small></p>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-4 mt-5" >
+            <div class="card" style="width: 100%;">
+                <img src="../benimfotom.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">"GELİŞİP VE HIZLA BÜYÜYEN DİJİTAL İLE YENİ BİR DÜNYA OLUŞTURMAK"</p>
+                  <a href="https://neosyazilim.com/" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <!--second side-->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://pbs.twimg.com/media/FPpQAIKVsAkt3pX?format=jpg&name=4096x4096" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i0.wp.com/learncplusplus.org/wp-content/uploads/2022/08/pexels-pixabay-270360-1-scaled.jpg?resize=1140%2C694&ssl=1" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--third side-->
+      <div class="row">
+        <div class="col-4" id="second-side">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBdRKGzohhGryszHfNTIN3-owPAh4SiMELMg&usqp=CAU" alt="java">
+
+        </div>
+        <div class="col-8" >
+            <h1>javascript</h1>
+            <p>Kasım 1996'da Netscape, JavaScript'i Ecma International'a tüm tarayıcı satıcılarının uyabileceği standart bir belirtimin başlangıç noktası olarak sundu. Bu, Haziran 1997'de ilk ECMAScript dil spesifikasyonunun resmî olarak yayınlanmasına yol açtı.
+
+                Standartlar süreci, ECMAScript 2'nin Haziran 1998'de ve ECMAScript 3'ün Aralık 1999'da piyasaya sürülmesiyle birkaç yıl boyunca devam etti. ECMAScript 4 üzerindeki çalışmalar ise 2000 yılında başladı.[20]
+                
+                Bu arada Microsoft, tarayıcı pazarında giderek daha baskın bir konuma geldi. 2000'lerin başında, Internet Explorer'ın pazar payı %95'e ulaştı.[24] Bu durum, JScript'in Web'de istemci tarafı komut dosyası oluşturmak için gerçek bir standart haline geldiği anlamını taşıyordu.
+                
+                Microsoft başlangıçta standartlar sürecine katıldı ve bazı önerileri kendi JScript dilinde uyguladı, ancak sonunda Ecma çalışması üzerinde iş birliğini durdurdu. Böylece ECMAScript 4 yenilmiş oldu.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-8">
+            <h1>Python</h1>
+            <p>Django, Zope uygulama sunucuları, YouTube ve orijinal BitTorrent istemcisi Python kullanan önemli projelerden bazılarıdır. Ayrıca Google, NASA ve CERN gibi büyük kurumlar da Python kullanmaktadır. Pygame ile 2D oyun yapılabilir, Blockchain uygulamaları kodlanabilir, uzaktan kontrol veya görüntü işleme yapılabilir, veri analizi veya veri kontrolü yapılabilir, TensorFlow, PyTorch, Keras gibi kütüphanlerle derin makine öğrenmesi uygulamaları yapılabilir.
+
+                Ayrıca OpenOffice.org, GIMP, Inkscape, Blender, Scribus ve Paint Shop Pro gibi bazı programlarda betik dili olarak kullanılır.
+                
+                Pek çok Linux dağıtımında ve Apple macOS işletim sisteminde Python öntanımlı bir bileşen olarak gelir.</p>
+        </div>
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJofIm8qsVZLaSM8PSQEX80V6EWS9O9cBg-A&usqp=CAU" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc7O3QuBoXW3wuZJpQJypLarTtPRzIIqdu1Q&usqp=CAU" alt="">
+        </div>
+        <div class="col-8">
+            <h1>C++</h1>
+            <p>Genel olarak her C programı aynı zamanda bir C++ programıdır, ancak her C++ programı bir C programı değildir. Bu durumun bazı istisnaları mevcuttur. C++'ı C'den ayıran özellikler C++'ın nesne paradigması kullanılarak programlamaya olanak tanıyan özelliklerdir. Sınıflar sayesinde yeni veri türleri yaratılabilir veya var olan türlerden yenileri türetilebilir. Ayrıca çokbiçimlilik sayesinde bir sınıf tanımıyla yazılmış kod, o sınıf türünden türetilmiş yeni sınıflarla da çalışabilir.></p>
+        </div>
+      </div>
+      <hr>
+      <!--end-->
+      <div class="row ">
+        <div class="col-2">
+        
+        </div>
+        <div class="col-8" style="height: 30vh;" id="icons">
+            <h3>Sosyal Medya Hesaplarımız</h3>
+            <span>
+                <i class="fa-brands fa-instagram fa-3x" style="color: #ff6c0a;"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-github fa-3x" style="color: #00e1ff;"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-twitter fa-3x" style="color: #005eff;"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-facebook fa-3x" style="color: #005eff;"></i>
+                
+            </span>
+
+        </div>
+        <div class="col-2"></div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
